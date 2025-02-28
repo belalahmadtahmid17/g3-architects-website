@@ -116,6 +116,50 @@ main> section{
     font-size: 2.8rem;
     color: #FF900E;
     }
+    /* 2nd features related styles */
+    .f-container{
+        display: flex;
+        gap: 146px;
+    }
+    .f-title{
+        font-size: 2.8rem;
+        border-left: 6px solid #FF900E;
+        padding-left: 2.3rem;
+    }
+    .f-description{
+        font-size: 16px;
+        font-weight: 400;
+        color: #727272;
+    }
+    .f-boxes-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+    }
+    .f-boxes{
+        padding: 7px 20px;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    }
+    .box-title{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .box-description{
+        font-size: 16px;
+        font-weight: 400;
+        color: #727272;
+
+    }
+    .f-btn{
+        height: 200px;
+        width: 342px;
+        padding: 45px 42px 45px 42px;
+    }
+    .ten{
+    font-size: 65px;
+    font-weight: 700;
+    }
     /* facts section styles */
     .facts-container{
         display: grid;
